@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic tac toe</title>
+  </head>
+  <body>
+    <div class="leaderboard">
+      <div>
+        <span>Player X</span>
+        <span class="player_X">0</span>
+      </div>
+      <div>
+        <span>Turn</span>
+        <span class="turn">X</span>
+      </div>
+      <div>
+        <span>Player O</span>
+        <span class="player_O">0</span>
+      </div>
+    </div>
+    <div class="gameboard">
+      <div class="field" data-row="row0" data-col="0"></div>
+      <div class="field" data-row="row0" data-col="1"></div>
+      <div class="field" data-row="row0" data-col="2"></div>
+      <div class="field" data-row="row1" data-col="0"></div>
+      <div class="field" data-row="row1" data-col="1"></div>
+      <div class="field" data-row="row1" data-col="2"></div>
+      <div class="field" data-row="row2" data-col="0"></div>
+      <div class="field" data-row="row2" data-col="1"></div>
+      <div class="field" data-row="row2" data-col="2"></div>
+    </div>
+    <dialog>
+      <div>
+        <p>X win</p>
+        <button class="new_round">Another one</button>
+      </div>
+    </dialog>
+
+    <script src="main.js"></script>
+  </body>
+</html>
